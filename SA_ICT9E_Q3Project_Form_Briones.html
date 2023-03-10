@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+	<title></title>
+	<style type="text/css">
+		body{
+	 	background: url('FIRE.png');
+	 	background-size: cover;
+
+	</style>	
+</head>
+<body>
+	<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+	<a class="navbar-brand" href="#">Inquiries</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="collapsibleNavbar">
+		<ul class="navbar-nav">
+			<li class="nav-item">
+				<a class="nav-link"href="https://dcbriones.github.io/Q3Project/SA_ICT9E_Q3Project_Briones">Home</a>
+			</li>
+		</ul>
+	</div>	
+</nav>
+<div class="container">
+	<form class="form-horizontal" action="/action_form.php">
+	<h2>Business Inquiries</h2>
+		<div class="form-group">
+			<label class="control-label-col-sm-2" for="name">Name:</label>
+			<div class="col-sm-10">
+				<input type="name" class="form-control" id="name" placeholder="Enter name" name="name">
+		</div>
+		<div class="form-group">
+			<label class="control-label-col-sm-2" for="email">Email:</label>
+			<div class="col-sm-10">
+				<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+			</div>
+		</div>
+	</div>
+	<div class="form-group">
+			<label class="control-label-col-sm-2" for="message">Message</label>
+			<div class="col-sm-10">
+				<input type="message" class="message" id="message" placeholder="Enter message" name="message">
+			</div>
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-sm-offset-2-col-sm-10">
+			<button type="submit" class="btn btn-success">Send</button>
+			<button type="submit" class="btn btn-danger">Clear</button>
+		</div>
+	</div>
+	</form>
+</div>
+</body>
+</html>
